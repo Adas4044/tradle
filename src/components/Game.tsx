@@ -24,7 +24,8 @@ import { useMode } from "../hooks/useMode";
 import { useCountry } from "../hooks/useCountry";
 
 function getDayString() {
-  return DateTime.now().toFormat("yyyy-MM-dd");
+  //return DateTime.now().toFormat("yyyy-MM-dd");
+  return "2000-01-01";
 }
 
 const MAX_TRY_COUNT = 6;
